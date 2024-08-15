@@ -6,3 +6,11 @@ isEven x = if mod x 2 == 0
 
 -- Apparently GHCI throws errors if you use tabs over spaces.
 -- Also, you need to use `"` instead of `'` for strings.
+
+main :: IO()
+main = do
+  putStrLn $ show (isEven 4)
+  
+  -- `$` usage: `f $ x` is equivalent to `f(x)`
+  -- So, `putStrLn $ show (isEven 4)` is the same
+  -- as `putStrLn (show (isEven 4))`
