@@ -9,8 +9,7 @@ isEven x = if mod x 2 == 0
 
 main :: IO()
 main = do
-  putStrLn $ show (isEven 4)
-  
+  putStrLn $ show (y)
   -- `$` usage: `f $ x` is equivalent to `f(x)`
   -- So, `putStrLn $ show (isEven 4)` is the same
   -- as `putStrLn (show (isEven 4))`
