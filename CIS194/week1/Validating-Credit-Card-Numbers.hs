@@ -27,3 +27,4 @@ main = do
   if rem == 0
     then putStrLn "Card number is valid."
     else putStrLn "Card number is invalid"
+
